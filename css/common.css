@@ -18,4 +18,12 @@ ul li{
     padding: 5px;
 }
 
+.row{
+    justify-content: space-around;
+}
+
+.padding-b-30px{
+    padding-bottom: 30px;
+}
+
 

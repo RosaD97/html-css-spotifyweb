@@ -3,14 +3,17 @@ ASIDE
  ***************************/
 
  .container-aside{
-    width: 20%;
+    width: 10%;
     background-color: var(--second-color);
     padding: 20px;
+    position: fixed;
  }
   .big-container{
     max-width: 1440px;
     margin: 0 auto;
     color: aliceblue;
+    overflow: auto;
+    position: relative;
  }
 .logo-header{
     width: 70%;
@@ -24,14 +27,17 @@ ASIDE
 MAIN
  ***************************/
   .main-container{
-    width: 80%;
+    width: 100%;
     background-color: blue;
-
+    margin-bottom: 90px;
  }
-
- /***************************
+.overflow{
+    overflow: auto;
+    margin-left: 200px;
+}
+/***************************
 PLAYLIST
- ***************************/
+***************************/
  .create-playlist{
     padding-bottom: 10px;
  }
@@ -39,17 +45,44 @@ PLAYLIST
     padding-bottom: 400px;
  }
 
-  /***************************
+/***************************
 HEADER BTN
- ***************************/
+***************************/
  .header-btn{
     width: 100%;
     height: 90px;
     background-color: green;
     justify-content: flex-end;
+    align-items: center;
  }
-
- #btn-upgrade{
-    
-
+/***************************
+MENU LIST
+***************************/
+.ul-list{
+    justify-content: center;
+    padding: 10px 0;
 }
+
+ul.ul-list li{
+    margin: 0 20px;
+}
+/***************************
+PLAYED
+***************************/
+.col-p{
+    width: calc(100% / 6 - 20px);
+    height: 200px;
+    background-color: aqua;
+    gap: 20px;
+}
+
+/***************************
+SUGGERIMENTI
+***************************/
+.col-s{
+    width: calc(100% / 6 - 20px);
+    height: 200px;
+    background-color: aqua;
+    margin: 10px;
+}
+
