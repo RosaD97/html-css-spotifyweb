@@ -1,0 +1,55 @@
+/***************************
+ASIDE
+ ***************************/
+
+ .container-aside{
+    width: 20%;
+    background-color: var(--second-color);
+    padding: 20px;
+ }
+  .big-container{
+    max-width: 1440px;
+    margin: 0 auto;
+    color: aliceblue;
+ }
+.logo-header{
+    width: 70%;
+}
+
+.aside-menu{
+    padding: 10px 0;
+}
+
+/***************************
+MAIN
+ ***************************/
+  .main-container{
+    width: 80%;
+    background-color: blue;
+
+ }
+
+ /***************************
+PLAYLIST
+ ***************************/
+ .create-playlist{
+    padding-bottom: 10px;
+ }
+ .playlist{
+    padding-bottom: 400px;
+ }
+
+  /***************************
+HEADER BTN
+ ***************************/
+ .header-btn{
+    width: 100%;
+    height: 90px;
+    background-color: green;
+    justify-content: flex-end;
+ }
+
+ #btn-upgrade{
+    
+
+}

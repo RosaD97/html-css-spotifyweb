@@ -1,0 +1,21 @@
+/***************************
+COMMON
+ ***************************/
+ .flex{
+    display: flex;
+ }
+
+ .f-direction-col{
+    flex-direction: column;
+ }
+
+.padding-5px{
+    padding: 5px;
+}
+
+ul li{
+    list-style: none;
+    padding: 5px;
+}
+
+
