@@ -28,6 +28,13 @@ ASIDE
 .aside-menu{
     padding: 10px 0;
 }
+div.icons span{
+    width: 30px;
+}
+.text-menu{
+    font-size: 13px;
+    line-height: 22px;
+}
 
 /***************************
 MAIN
@@ -51,15 +58,21 @@ PLAYLIST
     overflow: auto;
     min-height: 300px;
     flex-grow: 1;
+    font-size: 13px;
 }
-
  /***************************
 USER
 ***************************/
 .utente{
     margin-top: auto;
     margin-bottom: 10px;
-
+}
+.img-footer-aside{
+    width: 20px;
+    margin-right: 8px;
+}
+#text-install{
+    vertical-align: top;
 }
 
 /***************************

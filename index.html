@@ -36,9 +36,9 @@
             <!-- ASAID MENU -->
             <div class="aside-menu flex">
                 <div class="icons flex f-direction-col">
-                    <span class="padding-3px"><i class="fa-solid fa-house"></i></span>
-                    <span class="padding-3px"><i class="fa-solid fa-magnifying-glass"></i></span>
-                    <span class="padding-3px"><i class="fa-solid fa-lines-leaning"></i></span>
+                    <span class="padding-3px"><img src="img/home.svg" alt=""></span>
+                    <span class="padding-3px"><img src="img/search.svg" alt=""></span>
+                    <span class="padding-3px"><img src="img/libreria.svg" alt=""></span>
                 </div>
                 <div class="text-menu flex f-direction-col">
                     <span class="padding-3px">Home</span>
@@ -69,9 +69,9 @@
 
             <!-- USER -->
             <div class="utente">
-                <i class="fa-regular fa-circle-down"></i><span id="text-install">Installa app</span>
+                <img class="img-footer-aside" src="img/download.svg" alt=""><span id="text-install">Installa app</span>
                 <hr id="riga">
-                <i class="fa-solid fa-circle-user"></i><span class="user-name">John Doe</span>
+                <img class="img-footer-aside" src="img/profile.svg" alt=""><span class="user-name">John Doe</span>
             </div>
 
         </aside>
@@ -138,18 +138,33 @@
 
     <!-- Footer -->
     <footer class="big-container">
-        <div class="container-footer flex">
-            <div class="brano">
-                <div>Sinister</div>
-                <div>
-                    <span>cuore</span>
-                    <span>cartella</span>
+        <div class="container-footer flex align-i-center">
+            <!-- BRANO -->
+            <div class="brano flex align-i-center">
+                <div class="mini-footer-sx flex align-i-center">
+                        <img class="mini-img" src="img/sinister.jpeg" alt="">
+                    <div class="flex f-direction-col">
+                        <span class="bold">Sinister</span>
+                        <span>Brano Nome</span>
+                    </div>
+                </div>
+
+                <div class="flex">
+                    <i class="fa-regular fa-heart"></i>
+                    <i class="fa-regular fa-folder"></i>
                 </div>
             </div>
 
-            <div class="play">
-                <div>back play next</div>
-                <div>minuti</div>
+            <!-- PLAY -->
+            <div class="flex f-direction-col align-i-center">
+                <div class="play">
+                    <i class="fa-solid fa-shuffle padding-play"></i>
+                    <i class="fa-solid fa-backward-step padding-play"></i>
+                    <i class="fa-regular fa-circle-play"></i>
+                    <i class="fa-solid fa-forward-step padding-play"></i>
+                    <i class="fa-solid fa-rotate-right padding-play"></i>
+                </div>
+                <div class="bar"></div>
             </div>
 
             <div>

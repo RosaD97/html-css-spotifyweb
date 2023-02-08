@@ -34,11 +34,35 @@ body{
     margin-left: 10px;
 }
 
+.align-i-center{
+    align-items: center;
+}
+.bold{
+    font-weight: bold;
+}
+
 /***************************
 FONT AWESOME
  ***************************/
- div.icons span, .fa-circle-user{
+.fa-circle-user{
     font-size: 20px;
  }
+
+ .padding-play{
+    padding: 10px 10px;
+    font-size: 15px;
+ }
+
+ .fa-circle-play{
+    font-size: 25px;
+    padding: 10px 20px;
+    vertical-align: sub;
+ }
+ .bar{
+    height: 2px;
+    width: 430px;
+    background-color: aquamarine;
+ }
+
 
 

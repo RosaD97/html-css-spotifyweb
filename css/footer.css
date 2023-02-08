@@ -2,6 +2,25 @@
 FOOTER
  ***************************/
  .container-footer{
-    background-color: aqua;
+    background-color: var(--footer-color);
     height: 10vh;
+    justify-content: space-between;
+    padding: 0 10px;
  }
+ /***************************
+BRANO
+ ***************************/
+ 
+.mini-img{
+   width: 25%;
+   margin-right: 10px;
+}
+.brano{
+   width: 200px;
+}
+div.mini-footer-sx div span{
+   font-size: 11px;
+}
+.fa-folder{
+   margin-left: 10px;
+}
