@@ -3,7 +3,7 @@ FOOTER
  ***************************/
  .container-footer{
     background-color: var(--footer-color);
-    height: 10vh;
+    min-height: 90px;
     justify-content: space-between;
     padding: 0 10px;
  }
@@ -16,11 +16,65 @@ BRANO
    margin-right: 10px;
 }
 .brano{
-   width: 200px;
+   width: 13%;
 }
 div.mini-footer-sx div span{
    font-size: 11px;
 }
 .fa-folder{
    margin-left: 10px;
+}
+ /***************************
+PLAY
+ ***************************/
+ .padding-play{
+   padding: 10px 10px;
+   font-size: 15px;
+}
+
+.fa-circle-play{
+   font-size: 25px;
+   padding: 10px 20px;
+   vertical-align: sub;
+}
+.bar{
+   height: 2px;
+   width: 430px;
+   background-color: #5a5a5a;
+}
+.bar-play{
+   height: 2px;
+   width: 85px;
+   background-color: #fff;
+   position: absolute;
+   bottom: 0;
+   left: 0;
+}
+
+/* .bar::after{
+   content: '4:35';
+}
+.bar::before{
+   content: '0:25';
+} */
+
+ /***************************
+VOLUME
+ ***************************/
+ .mini-footer-dx{
+   width: 215px;
+ }
+
+ div.mini-footer-dx span{
+   font-size: 12px;
+   margin-right: 10px;
+ }
+ .box-bar{
+   width: 120px;
+ }
+ .mini-bar-play{
+   height: 2px;
+   width: 25px;
+   background-color: #fff;
+   position: absolute;
 }

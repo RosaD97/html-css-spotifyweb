@@ -40,28 +40,14 @@ body{
 .bold{
     font-weight: bold;
 }
-
+.pos-rel{
+    position: relative;
+}
 /***************************
 FONT AWESOME
  ***************************/
 .fa-circle-user{
     font-size: 20px;
- }
-
- .padding-play{
-    padding: 10px 10px;
-    font-size: 15px;
- }
-
- .fa-circle-play{
-    font-size: 25px;
-    padding: 10px 20px;
-    vertical-align: sub;
- }
- .bar{
-    height: 2px;
-    width: 430px;
-    background-color: aquamarine;
  }
 
 

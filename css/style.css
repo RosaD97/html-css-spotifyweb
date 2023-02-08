@@ -30,7 +30,7 @@ div.text-menu span{
     color: black;
     margin: 7px 5px 0 0;
 }
-ul, div.create-playlist span, #text-install, #riga, .fa-circle-user, .fa-circle-down{
+ul, div.create-playlist span, #text-install, .riga, .fa-circle-user, .fa-circle-down{
     color: var(--font-color);
 }
 
@@ -38,7 +38,7 @@ ul, div.create-playlist span, #text-install, #riga, .fa-circle-user, .fa-circle-
     padding-right: 5px;
 }
 
-#riga{
+.riga{
     width: 165px;
     margin: 10px 0;
 }

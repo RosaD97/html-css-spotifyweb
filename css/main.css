@@ -119,11 +119,14 @@ SUGGERIMENTI
 VERSION MD <=878px 
  ***************************/
  @media screen and (max-width: 878px) {
-    .container-aside{
-        width: 22%;
-    }
     .big-container{
         max-width: 100vw;
+     }
+     div.brano{
+        width: 20%;
+     }
+     div.bar{
+        width: 250px;
      }
  }
 /***************************
@@ -135,6 +138,18 @@ VERSION SM <=640px
     }
     .big-container{
         max-width: 100vw;
+     }
+     div.brano{
+        width: 25%;
+     }
+     .hart-folder{
+        flex-direction: column;
+     }
+     i.fa-folder{
+        margin: 0;
+     }
+     .section-play{
+        width: 200px;
      }
  }
  /***************************
