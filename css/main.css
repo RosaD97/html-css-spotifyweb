@@ -3,20 +3,26 @@ ASIDE
  ***************************/
 
  .container-aside{
-    width: 10%;
+    width: 250px;
     background-color: var(--second-color);
-    padding: 20px;
-    position: fixed;
+    padding: 20px 0 0 10px;
+    height: 90vh;
  }
   .big-container{
-    max-width: 1440px;
+    max-width: 80vw;
     margin: 0 auto;
     color: aliceblue;
-    overflow: auto;
-    position: relative;
  }
 .logo-header{
     width: 70%;
+}
+
+.mini-logo{
+    display: none;
+    width: 30px;
+}
+.logo{
+    opacity: 100%;
 }
 
 .aside-menu{
@@ -29,27 +35,37 @@ MAIN
   .main-container{
     width: 100%;
     background-color: blue;
-    margin-bottom: 90px;
+    height: 90vh;
+    overflow: scroll;
  }
-.overflow{
-    overflow: auto;
-    margin-left: 200px;
-}
+
 /***************************
 PLAYLIST
 ***************************/
  .create-playlist{
     padding-bottom: 10px;
+    padding-top: 10px;
  }
- .playlist{
-    padding-bottom: 400px;
- }
+.lista-name-playlist{
+    line-height: 30px;
+    overflow: auto;
+    min-height: 300px;
+    flex-grow: 1;
+}
+
+ /***************************
+USER
+***************************/
+.utente{
+    margin-top: auto;
+    margin-bottom: 10px;
+
+}
 
 /***************************
 HEADER BTN
 ***************************/
  .header-btn{
-    width: 100%;
     height: 90px;
     background-color: green;
     justify-content: flex-end;
@@ -86,3 +102,48 @@ SUGGERIMENTI
     margin: 10px;
 }
 
+/***************************
+VERSION MD <=878px 
+ ***************************/
+ @media screen and (max-width: 878px) {
+    .container-aside{
+        width: 22%;
+    }
+    .big-container{
+        max-width: 100vw;
+     }
+ }
+/***************************
+VERSION SM <=640px 
+ ***************************/
+ @media screen and (max-width: 640px) {
+    .container-aside{
+        width: 30%;
+    }
+    .big-container{
+        max-width: 100vw;
+     }
+ }
+ /***************************
+VERSION XS <=552px
+ ***************************/
+ @media screen and (max-width: 552px) {
+    .container-aside{
+        width: 50px;
+    }
+     div.text-menu, .playlist, #text-install, #riga, .user-name{
+        display: none;
+     }
+     .fa-circle-user{
+        padding: 5px 0 5px 4px;
+     }
+     .fa-circle-down{
+        padding: 5px 0 13px 6px;
+     }
+     .mini-logo{
+        display: block;
+    }
+    .logo{
+        display: none;
+    }
+ }

@@ -4,3 +4,44 @@
 @import url(variables.css);
 @import url(reset.css);
 @import url(main.css);
+
+/***************************
+ STYLE 
+ ***************************/
+
+div.icons span:not(:first-child){
+    color: var(--font-color);
+}
+div.text-menu span:not(:first-child){
+    color: var(--font-color);
+}
+div.text-menu span{
+    font-size: 14px;
+    margin: 4px 0 2px 0;
+}
+
+.text-playlist, div.utente span#text-install{
+    font-size: 15px;
+}
+
+.fa-plus{
+    background-color: var(--font-color);
+    padding: 7px;
+    color: black;
+    margin: 7px 5px 0 0;
+}
+ul, div.create-playlist span, #text-install, #riga, .fa-circle-user, .fa-circle-down{
+    color: var(--font-color);
+}
+
+.fa-circle-arrow-down, .fa-circle-user{
+    padding-right: 5px;
+}
+
+#riga{
+    width: 165px;
+    margin: 10px 0;
+}
+.user-name{
+    font-weight: 600;
+}

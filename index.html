@@ -6,42 +6,56 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Spotify Web</title>
 
+
     <!-- CSS -->
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/footer.css">
 
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer">
+
 
 </head>
 <body>
 
-    <!-- Main -->
+    <!-- MAIN -->
     <main class="big-container flex">
         <aside class="container-aside flex f-direction-col">
+            <!-- LOGO -->
             <div class="logo-header">
-                <img src="img/logo.svg" alt="logo spotify">
+                <img class="logo" src="img/logo.svg" alt="logo spotify">
+                <img class="mini-logo" src="img/logo-small.svg" alt="mini logo spotify">
             </div>
 
+            <!-- ASAID MENU -->
             <div class="aside-menu flex">
                 <div class="icons flex f-direction-col">
-                    <span class="padding-5px">1</span>
-                    <span class="padding-5px">2</span>
-                    <span class="padding-5px">3</span>
+                    <span class="padding-3px"><i class="fa-solid fa-house"></i></span>
+                    <span class="padding-3px"><i class="fa-solid fa-magnifying-glass"></i></span>
+                    <span class="padding-3px"><i class="fa-solid fa-lines-leaning"></i></span>
                 </div>
                 <div class="text-menu flex f-direction-col">
-                    <span class="padding-5px">home</span>
-                    <span class="padding-5px">cerca</span>
-                    <span class="padding-5px">libreria</span>
+                    <span class="padding-3px">Home</span>
+                    <span class="padding-3px">Cerca</span>
+                    <span class="padding-3px">La tua libreria</span>
                 </div>
             </div>
 
+            <!-- PLAYLIST -->
             <div class="playlist">
                 <div class="create-playlist">
-                    <h3>playlist</h3>
-                    <span>crea playlist</span>
+                    <h3 class="text-playlist">PLAYLIST</h3>
+                    <i class="fa-solid fa-plus"></i>
+                    <span>Crea Playlist</span>
                 </div>
                 <div class="lista-playlist">
-                    <ul>
+                    <ul class="lista-name-playlist">
                         <li>Nome Playlist</li>
                         <li>Nome Playlist</li>
                         <li>Nome Playlist</li>
@@ -53,10 +67,11 @@
                 </div>
             </div>
 
+            <!-- USER -->
             <div class="utente">
-                <span>installa app</span>
-                <hr>
-                <span>jhon</span>
+                <i class="fa-regular fa-circle-down"></i><span id="text-install">Installa app</span>
+                <hr id="riga">
+                <i class="fa-solid fa-circle-user"></i><span class="user-name">John Doe</span>
             </div>
 
         </aside>
@@ -68,7 +83,8 @@
                 <button id="btn-upgrade">upgrade</button>
             </div>
 
-            <div class="overflow">
+            <!-- SEZIONE PRINCIPALE -->
+            <div>
                 <!-- MENU LIST -->
                 <div class="menu-list padding-b-30px">
                     <ul class="flex ul-list">
@@ -82,7 +98,7 @@
                 </div>
 
                 <!-- PLAYED -->
-                <div class="padding-b-30px">
+                <div class="padding-b-30px margin-l-10px">
                     <h2>Recently Played</h2>
                     <div class="row flex">
                         <div class="col-p">play</div>
@@ -95,7 +111,7 @@
                 </div>
 
                 <!-- SUGGERIMENTI -->
-                <div class="padding-b-30px">
+                <div class="padding-b-30px margin-l-10px">
                     <h2>Creato per John</h2>
                     <span>Più ascolti più accurati saranno</span>
                     <div class="row-s flex">
@@ -105,7 +121,7 @@
                 </div>
 
                 <!-- POPULAR ARTIST -->
-                <div>
+                <div class="margin-l-10px">
                     <h2>Artisti più popolari</h2>
                     <span>Più ascolti più accurati saranno</span>
                     <div class="row-s flex">
@@ -125,7 +141,7 @@
         <div class="container-footer flex">
             <div class="brano">
                 <div>Sinister</div>
-                <div> 
+                <div>
                     <span>cuore</span>
                     <span>cartella</span>
                 </div>

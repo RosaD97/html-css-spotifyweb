@@ -2,9 +2,6 @@
 FOOTER
  ***************************/
  .container-footer{
-    width: 75%;
     background-color: aqua;
-    height: 90px;
-    position: fixed;
-    bottom: 0;
+    height: 10vh;
  }
