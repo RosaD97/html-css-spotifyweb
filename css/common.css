@@ -27,6 +27,7 @@ ul li{
 .row{
     gap: 15px;
     flex-wrap: wrap;
+    margin-top: 20px;
 }
 
 .padding-b-30px{

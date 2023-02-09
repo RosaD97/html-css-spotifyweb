@@ -111,6 +111,9 @@ MENU LIST
     flex-wrap: wrap;
     font-size: 12px;
 }
+ul.ul-list li:first-child{
+    border-bottom: 2px solid white;
+}
 
 /***************************
 PLAYED
