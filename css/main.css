@@ -107,8 +107,9 @@ MENU LIST
 .ul-list{
     justify-content: center;
     padding: 10px 0;
-    gap: 40px;
+    gap: 30px;
     flex-wrap: wrap;
+    font-size: 12px;
 }
 
 /***************************
@@ -117,15 +118,15 @@ PLAYED
 div.row div{
     width: calc(100% / 6 - 15px);
 }
-.box-title{
-
-    margin-bottom: 20px;
-    margin-top: 10px;
+div.flex div.box-title{
+    text-align: center;
+    display: contents;
 }
 .title{
     font-size: 13px;
     font-weight: bold;
     margin-bottom: 7px;
+    margin-top: 10px;
     text-align: center;
 }
 .subtitle{
@@ -157,6 +158,13 @@ VERSION MD <=878px
     div.row div{
         width: calc(100% / 4 - 15px);
     }
+    div.bar{
+        width: 100%;
+    }
+    div.bar-play {
+        width: 30px;
+        left: 0px;
+      }
  }
 /***************************
 VERSION SM <=640px 
@@ -171,8 +179,9 @@ VERSION SM <=640px
      div.brano{
         width: 25%;
      }
-     .hart-folder{
+     .heart-folder{
         flex-direction: column;
+        margin-left: 20px;
      }
      i.fa-folder{
         margin: 0;
@@ -217,4 +226,8 @@ VERSION XS <=552px
     div.play i{
         padding: 5px;
     }
+    div.bar-play {
+        width: 30px;
+        left: 25px;
+      }
  }

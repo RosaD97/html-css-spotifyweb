@@ -39,8 +39,7 @@ ul, div.create-playlist span, #text-install, .riga, .fa-circle-user, .fa-circle-
 }
 
 .riga{
-    width: 165px;
-    margin: 10px 0;
+    margin: 10px 10px 10px 0;
 }
 .user-name{
     font-weight: 600;
