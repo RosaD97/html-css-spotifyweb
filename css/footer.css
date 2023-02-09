@@ -39,7 +39,7 @@ PLAY
 }
 .bar{
    height: 2px;
-   width: 430px;
+   width: 150%;
    background-color: #5a5a5a;
 }
 .bar-play{
@@ -48,7 +48,7 @@ PLAY
    background-color: #fff;
    position: absolute;
    bottom: 0;
-   left: 0;
+   left:  -60px;
 }
 
 /* .bar::after{
@@ -61,9 +61,6 @@ PLAY
  /***************************
 VOLUME
  ***************************/
- .mini-footer-dx{
-   width: 215px;
- }
 
  div.mini-footer-dx span{
    font-size: 12px;
@@ -77,4 +74,10 @@ VOLUME
    width: 25px;
    background-color: #fff;
    position: absolute;
+}
+
+.mini-bar{
+   height: 2px;
+   width: 150%;
+   background-color: #5a5a5a;
 }

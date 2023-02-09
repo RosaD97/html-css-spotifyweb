@@ -1,6 +1,12 @@
 /***************************
 COMMON
  ***************************/
+ body{
+    height: 100vh;
+    margin: 0 auto;
+    max-width: 1440px;
+    font-family: 'Montserrat', sans-serif;
+ }
  .flex{
     display: flex;
  }
@@ -19,15 +25,12 @@ ul li{
 }
 
 .row{
-    justify-content: space-around;
+    gap: 15px;
+    flex-wrap: wrap;
 }
 
 .padding-b-30px{
     padding-bottom: 30px;
-}
-
-body{
-    font-family: 'Montserrat', sans-serif;
 }
 
 .margin-l-10px{

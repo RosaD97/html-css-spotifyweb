@@ -48,14 +48,14 @@
             </div>
 
             <!-- PLAYLIST -->
-            <div class="playlist">
+            <div class="playlist flex f-direction-col">
                 <div class="create-playlist">
                     <h3 class="text-playlist">PLAYLIST</h3>
                     <i class="fa-solid fa-plus"></i>
                     <span>Crea Playlist</span>
                 </div>
                 <div class="lista-playlist">
-                    <ul class="lista-name-playlist">
+                    <ul class="lista-name-playlist flex f-direction-col">
                         <li>Nome Playlist</li>
                         <li>Nome Playlist</li>
                         <li>Nome Playlist</li>
@@ -69,9 +69,9 @@
 
             <!-- USER -->
             <div class="utente">
-                <img class="img-footer-aside" src="img/download.svg" alt=""><span id="text-install">Installa app</span>
+                <img class="img-footer-aside img-install" src="img/download.svg" alt=""><span id="text-install">Installa app</span>
                 <hr class="riga">
-                <img class="img-footer-aside" src="img/profile.svg" alt=""><span class="user-name">John Doe</span>
+                <img class="img-footer-aside img-profile" src="img/profile.svg" alt=""><span class="user-name">John Doe</span>
             </div>
 
         </aside>
@@ -80,7 +80,7 @@
 
             <!-- HEADER BTN -->
             <div class="header-btn flex">
-                <button id="btn-upgrade">upgrade</button>
+                <button id="btn-upgrade">EFFETTUA L'UPGRADE</button>
             </div>
 
             <!-- SEZIONE PRINCIPALE -->
@@ -101,12 +101,48 @@
                 <div class="padding-b-30px margin-l-10px">
                     <h2>Recently Played</h2>
                     <div class="row flex">
-                        <div class="col-p">play</div>
-                        <div class="col-p">3</div>
-                        <div class="col-p">3</div>
-                        <div class="col-p">3</div>
-                        <div class="col-p">3</div>
-                        <div class="col-p">play</div>
+                        <div class="flex f-direction-col">
+                            <img class="col-p" src="img/metal_lifting.jpg" alt="heavy metal">
+                            <div class="flex f-direction-col align-i-center box-title">
+                                <span class="title">Heavy Metal</span>
+                                <span class="subtitle">Subtitle</span>
+                            </div>
+                        </div>
+                        <div class="flex f-direction-col col-p">
+                            <img class="col-p" src="img/stranger.jpeg" alt="stranger things">
+                            <div class="flex f-direction-col box-title align-i-center">
+                                <span class="title">Stranger Things, Vol. 1(a Netflix Original Series Soundtrack)</span>
+                                <span class="subtitle">Kyle Dixon & Michael Stein</span>
+                            </div>
+                        </div>
+                        <div class="flex f-direction-col">
+                            <img class="col-p" src="img/aquietplace.jpeg" alt="quiet place">
+                            <div class="flex f-direction-col align-i-center">
+                                <span class="title">A quiet place</span>
+                                <span class="subtitle">Subtitle</span>
+                            </div>
+                        </div>
+                        <div class="flex f-direction-col">
+                            <img class="col-p" src="img/split.jpeg" alt="split">
+                            <div class="flex f-direction-col align-i-center">
+                                <span class="title">Split</span>
+                                <span class="subtitle">Subtitle</span>
+                            </div>
+                        </div>
+                        <div class="flex f-direction-col">
+                            <img class="col-p" src="img/cure.jpeg" alt="cure">
+                            <div class="flex f-direction-col align-i-center">
+                                <span class="title">A cure for wellness</span>
+                                <span class="subtitle">Subtitle</span>
+                            </div>
+                        </div>
+                        <div class="flex f-direction-col">
+                            <img class="col-p" src="img/sinister.jpeg" alt="sinister">
+                            <div class="flex f-direction-col align-i-center">
+                                <span class="title">Sinister</span>
+                                <span class="subtitle">Subtitle</span>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
@@ -114,9 +150,15 @@
                 <div class="padding-b-30px margin-l-10px">
                     <h2>Creato per John</h2>
                     <span>Più ascolti più accurati saranno</span>
-                    <div class="row-s flex">
-                        <div class="col-s">radar</div>
-                        <div class="col-s">mix</div>
+                    <div class="row flex">
+                        <div class="flex f-direction-col">
+                            <img class="col-s" src="img/radar.jpeg" alt="relase radar">
+                            <span>aaa</span>
+                        </div>
+                        <div class="flex f-direction-col">
+                            <img class="col-s" src="img/mixdaily.jpeg" alt="daily mix">
+                            <span>aaa</span>
+                        </div>
                     </div>
                 </div>
 
@@ -124,9 +166,15 @@
                 <div class="margin-l-10px">
                     <h2>Artisti più popolari</h2>
                     <span>Più ascolti più accurati saranno</span>
-                    <div class="row-s flex">
-                        <div class="col-s">artist</div>
-                        <div class="col-s">artist</div>
+                    <div class="row flex">
+                        <div class="flex f-direction-col">
+                            <img class="col-s circle" src="img/youg.jpeg" alt="youg">
+                            <span>aaa</span>
+                        </div>
+                        <div class="flex f-direction-col">
+                            <img class="col-s circle" src="img/einaudi.jpeg" alt="einaudi">
+                            <span>aaa</span>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -156,7 +204,7 @@
             </div>
 
             <!-- PLAY -->
-            <div class="flex f-direction-col align-i-center pos-rel section-play">
+            <div class="flex f-direction-col align-i-center pos-rel ">
                 <div class="play">
                     <i class="fa-solid fa-shuffle padding-play"></i>
                     <i class="fa-solid fa-backward-step padding-play"></i>
@@ -177,7 +225,7 @@
 
                 <div class="box-bar flex align-i-center pos-rel">
                     <div class="mini-bar-play"></div>
-                    <div class="bar"></div>
+                    <div class="mini-bar"></div>
                 </div>
             </div>
         </div>
