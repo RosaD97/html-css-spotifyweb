@@ -111,9 +111,6 @@ MENU LIST
     flex-wrap: wrap;
     font-size: 12px;
 }
-ul.ul-list li:first-child{
-    border-bottom: 2px solid white;
-}
 
 /***************************
 PLAYED
@@ -168,6 +165,10 @@ VERSION MD <=878px
         width: 30px;
         left: 0px;
       }
+    i.play-button{
+        top: 25px;
+        left: 25px;
+    }
  }
 /***************************
 VERSION SM <=640px 
@@ -202,6 +203,14 @@ VERSION SM <=640px
      div.row div{
         width: calc(100% / 2 - 15px);
     }
+    i.play-button{
+        top: 60px;
+        left: 50px;
+    }
+    i.fa-circle{
+        top: 40px;
+        left: 60px;
+     }
 
  }
  /***************************
@@ -233,4 +242,8 @@ VERSION XS <=552px
         width: 30px;
         left: 25px;
       }
+      i.fa-circle{
+        top: 30px;
+        left: 50px;
+     }
  }

@@ -24,6 +24,9 @@ div.mini-footer-sx div span{
 .fa-folder{
    margin-left: 10px;
 }
+.heart-folder{
+   color: #5a5a5a;
+}
  /***************************
 PLAY
  ***************************/
@@ -38,25 +41,18 @@ PLAY
    vertical-align: sub;
 }
 .bar{
-   height: 2px;
+   height: 4px;
    width: 150%;
    background-color: #5a5a5a;
 }
 .bar-play{
-   height: 2px;
+   height: 4px;
    width: 85px;
    background-color: #fff;
    position: absolute;
    bottom: 0;
    left:  -60px;
 }
-
-/* .bar::after{
-   content: '4:35';
-}
-.bar::before{
-   content: '0:25';
-} */
 
  /***************************
 VOLUME
@@ -70,14 +66,21 @@ VOLUME
    width: 120px;
  }
  .mini-bar-play{
-   height: 2px;
+   height: 4px;
    width: 25px;
    background-color: #fff;
    position: absolute;
 }
 
 .mini-bar{
-   height: 2px;
+   height: 4px;
    width: 150%;
    background-color: #5a5a5a;
+}
+
+.fa-circle{
+   position: absolute;
+   top: 40px;
+   left: 20px;
+   opacity: 0;
 }

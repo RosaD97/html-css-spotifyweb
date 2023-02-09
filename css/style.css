@@ -30,14 +30,9 @@ div.text-menu span{
     color: black;
     margin: 7px 5px 0 0;
 }
-ul, div.create-playlist span, #text-install, .riga, .fa-circle-user, .fa-circle-down{
+ul, div.create-playlist span, #text-install, .riga, .nome-brano{
     color: var(--font-color);
 }
-
-.fa-circle-arrow-down, .fa-circle-user{
-    padding-right: 5px;
-}
-
 .riga{
     margin: 10px 10px 10px 0;
 }
@@ -46,5 +41,73 @@ ul, div.create-playlist span, #text-install, .riga, .fa-circle-user, .fa-circle-
 }
 .box-description{
     margin-top: 15px;
-
 }
+i.play-button{
+    font-size: 70px;
+    opacity: 0;
+}
+.play-button{
+    position: absolute;
+    top: 40px;
+    left: 40px;
+}
+
+div ul.ul-list li:first-child::after{
+    content: "_____";
+    color: #adff2f;
+}
+
+.aside-menu::before{
+    content: "|";
+    color: #adff2f;
+    margin-left: -11px;
+    font-size: x-large;
+}
+
+ /***************************
+HOVER
+ ***************************/
+ img.col-p:hover{
+    filter: brightness(30%);
+    cursor: pointer;
+ }
+ img.col-s:hover{
+    filter: brightness(30%);
+    cursor: pointer;
+ }
+
+ i.play-button:hover{
+    opacity: 1;
+    cursor: pointer;
+ }
+ button#btn-upgrade:hover{
+    flex-grow: 0.1;
+ }
+
+ ul li:hover{
+    cursor: pointer;
+    color: #fff;
+ }
+ div.aside-menu span:hover{
+    cursor: pointer;
+    color: #fff;
+ }
+ div.create-playlist:hover{
+    cursor: pointer;
+    color: #fff;
+ }
+ .fa-regular:hover{
+    cursor: pointer;
+    color: #fff;
+ }
+ div.mini-bar-play:hover{
+    background-color: #adff2f;
+    cursor: pointer;
+ }
+ div.bar-play:hover{
+    background-color: #adff2f;
+    cursor: pointer;
+ }
+ div.bar-play ~ i:hover{
+    opacity: 1;
+ }

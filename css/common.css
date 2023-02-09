@@ -47,10 +47,8 @@ ul li{
 .pos-rel{
     position: relative;
 }
-/***************************
-FONT AWESOME
- ***************************/
-.fa-circle-user{
-    font-size: 20px;
- }
+.relative{
+    position: relative;
+}
+
 
